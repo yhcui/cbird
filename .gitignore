@@ -1,6 +1,6 @@
-#*/.idea/
-#.idea
-#!.gitignore
-#*/*.iml
-#*/target/
+*/.idea/
+.idea
+!.gitignore
+*/*.iml
+*/target/
 
