@@ -24,6 +24,16 @@ public class TestHashMap {
     @Test
     public void testHashMap() {
         Map<String, String> map = new HashMap<>();
+        String value = map.put("cc", "sb");
+        System.out.println("first value:" + value);
+        String sv = map.put("cc","dd");
+        System.out.println("second value:" + sv);
+        String ccV = map.get("cc");
+        System.out.println("ccVlaue:" + ccV);
+        String nullV = map.put(null, "NULL1");
+
+        System.out.println("nullv" +  map.get(null));
+
 
     }
 
